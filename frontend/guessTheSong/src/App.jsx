@@ -9,6 +9,7 @@ import { ResultScreen } from './Components/ResultScreen/ResultScreen'
 import { Leaderboard } from './Components/Leaderboard/Leaderboard'
 import { GameModes } from './Components/Gamemodes/GameModes'
 import { Profile } from './Components/ProfilePage/Profile'
+import { About } from './Components/About/About'
 
 function App() {
   
@@ -26,6 +27,7 @@ function App() {
         <Route path='leaderboard' element={<Leaderboard />}></Route>
         <Route path='profile' element={<ResultScreen />}></Route>
         <Route path='modes' element={<GameModes />}></Route>
+        <Route path='about' element={<About />}></Route>
       </Routes>
     </BrowserRouter>
   )
