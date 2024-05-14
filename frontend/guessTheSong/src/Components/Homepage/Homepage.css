@@ -1,0 +1,12 @@
+.nav {
+    height: 100vh;
+    background-color: #40A578;
+    padding: 0 35px;
+}
+.hero {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
